@@ -16,9 +16,9 @@ model_path = os.path.join("models", get_current_date_time_string())
 os.makedirs(model_path, exist_ok=True)
 
 if torch.backends.mps.is_available():
-    print("Metal (MPS) backend is available.")
+    print("Metal (MPS) backend is available")
     if torch.backends.mps.is_built():
-        print("Using Metal (MPS) for training.")
+        print("Using Metal (MPS) for training")
 else:
     print("Metal (MPS) backend is not available. Using CPU instead.")
 
