@@ -2,6 +2,8 @@
 
 This project trains a **Reinforcement Learning (RL) agent** to play **Super Mario Bros** using a **Double Deep Q-Network (DDQN)**. The agent processes pixel-based observations, selects actions using an epsilon-greedy strategy, and optimizes policies with experience replay.
 
+## Demo
+https://github.com/onionsp/Super-Mario-RL/blob/main/mario_demo.mov
 ---
 
 ## **Techniques Used**
